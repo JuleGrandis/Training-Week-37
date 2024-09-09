@@ -14,11 +14,11 @@ console.log("Task: B");
 
 const startBottles = 99;
 for (let index = startBottles; index > 0; index--) {
-    console.log(index + " bottles of soda on the shelf!");
-    console.log(index + " bottles of soda on the shelf!");
+    console.log(index + " bottles of soda on the shelf");
+    console.log(index + " bottles of soda");
 
     console.log(
-        "Take one down, pass it around." + (index - 1) + " bottles of soda on the shelf!"
+        "Take one down, pass it around, " + (index - 1) + " bottles of soda on the shelf."
     );
     console.log("");
 }
@@ -73,3 +73,14 @@ console.log("Task: G");
 phoneNumbers = phoneNumbers.slice(2, 3);
 console.log(phoneNumbers);
 //#endregion
+
+//#region Task H
+console.log("Task: H");
+
+let peopleNames = [["Christian", "Simonsen"], ["Tony", "Bergholtz"]]
+
+for (let i = 0; i < peopleNames.length; i++) {
+    console.log(peopleNames[i][1]);
+}
+//#endregion
+
