@@ -8,7 +8,7 @@ for (let i = 0; i < 100; i++) {
     console.log(taskAText);
 }
 //#endregion
-
+addSpacing(1);
 //#region Task B
 console.log("Task: B");
 
@@ -25,7 +25,7 @@ for (let index = startBottles; index > 0; index--) {
 
 console.log("No more bottles of soda on the shelf.");
 //#endregion
-
+addSpacing(1);
 //#region Task C
 console.log("Task: C");
 
@@ -37,7 +37,7 @@ console.log(G);
 console.log(PI);
 console.log(peopleInTheRoom);
 //#endregion
-
+addSpacing(1);
 //#region Task D
 console.log("Task: D");
 
@@ -48,7 +48,7 @@ function add(a, b) {
 console.log("3 + 6 = " + add(3, 6));
 console.log("5673 + 234 = " + add(5673, 234));
 //#endregion
-
+addSpacing(1);
 //#region Task E
 console.log("Task: E");
 
@@ -58,7 +58,7 @@ for(let i = people.length - 1; i >= 0; i--) {
     console.log(people[i]);
 };
 //#endregion
-
+addSpacing(1);
 //#region Task F
 console.log("Task: F")
 
@@ -66,14 +66,14 @@ let phoneNumbers = ["+4790611545", "+4797410577", "+4799643188"];
 
 console.log(phoneNumbers);
 //#endregion
-
+addSpacing(1);
 //#region Task G
 console.log("Task: G");
 
 phoneNumbers = phoneNumbers.slice(2, 3);
 console.log(phoneNumbers);
 //#endregion
-
+addSpacing(1);
 //#region Task H
 console.log("Task: H");
 
@@ -84,3 +84,10 @@ for (let i = 0; i < peopleNames.length; i++) {
 }
 //#endregion
 
+//#region Util Function
+function addSpacing(lines = 1) {
+    for (let i = 0; i < lines; i++){
+        console.log("")
+    }
+}
+//#endregion
