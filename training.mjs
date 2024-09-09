@@ -27,7 +27,7 @@ console.log("No more bottles of soda on the shelf.");
 //#endregion
 
 //#region Task C
-console.log("Task C");
+console.log("Task: C");
 
 const G = 9.81;
 const PI = 3.14159265359;
@@ -39,7 +39,7 @@ console.log(peopleInTheRoom);
 //#endregion
 
 //#region Task D
-console.log("Task D");
+console.log("Task: D");
 
 function add(a, b) {
     return a + b;
@@ -50,7 +50,7 @@ console.log("5673 + 234 = " + add(5673, 234));
 //#endregion
 
 //#region Task E
-console.log("Task E");
+console.log("Task: E");
 
 const people = ["Tony", "Christian", "Håkon"];
 
@@ -59,5 +59,17 @@ for(let i = people.length - 1; i >= 0; i--) {
 };
 //#endregion
 
-//region Task F
+//#region Task F
+console.log("Task: F")
 
+let phoneNumbers = ["+4790611545", "+4797410577", "+4799643188"];
+
+console.log(phoneNumbers);
+//#endregion
+
+//#region Task G
+console.log("Task: G");
+
+phoneNumbers = phoneNumbers.slice(2, 3);
+console.log(phoneNumbers);
+//#endregion
